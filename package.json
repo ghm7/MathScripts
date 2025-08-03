@@ -1,0 +1,32 @@
+{
+  "name": "khanacademyscripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "acorn": "8.15.0",
+    "acorn-walk": "8.3.4",
+    "arg": "4.1.3",
+    "create-require": "1.1.1",
+    "diff": "4.0.2",
+    "jest": "^30.0.5",
+    "make-error": "1.3.6",
+    "ts-jest": "^29.4.1",
+    "undici-types": "7.8.0",
+    "v8-compile-cache-lib": "3.0.1",
+    "yn": "3.1.1"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.9.2"
+  }
+}
